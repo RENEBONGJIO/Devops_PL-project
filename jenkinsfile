@@ -1,0 +1,16 @@
+pipeline{
+    agent any
+
+    stages{
+
+        stage('continous download'){
+
+            steps{git branch: 'main', url: 'https://github.com/RENEBONGJIO/DEVOPS_PROJECT1.git'
+
+            }
+
+
+        }
+
+    }
+}
