@@ -3,8 +3,7 @@ pipeline{
 
     stages{
 
-        stage('continous download'){
-
+        stage('continous download') {
             steps{git branch: 'main', url: 'https://github.com/RENEBONGJIO/Devops_PL-project.git'
 
             }
